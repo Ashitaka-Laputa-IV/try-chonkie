@@ -1,4 +1,4 @@
-"""入门 3：Refinery —— 切分之后，再给 chunk 补充信息。
+"""入门 7：Refinery —— 切分之后，再给 chunk 补充信息。
 
 OverlapRefinery 会把相邻 chunk 的文本补充到当前 chunk，缓解
 "关键信息正好被切在边界上"的问题。补充的内容写在 context 字段里；

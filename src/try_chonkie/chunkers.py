@@ -1,4 +1,4 @@
-"""入门 2：三个最常用的 chunker，对比切分方式的差异。
+"""入门 5：三个最常用的 chunker，对比切分方式的差异。
 
 - TokenChunker     按固定 token 数切分，长度可控，但可能在句子中间断开
 - SentenceChunker  按句子边界切分，语义更完整

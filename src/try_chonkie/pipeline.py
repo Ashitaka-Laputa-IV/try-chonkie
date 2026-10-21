@@ -1,4 +1,4 @@
-"""入门 4：Pipeline —— 用一条链串起整个处理流程。
+"""入门 9：Pipeline —— 用一条链串起整个处理流程。
 
 Chonkie 把 RAG 前处理抽象成 CHOMP 架构：
     Fetcher -> Chef -> Chunker -> Refinery -> Porter / Handshake

@@ -1,0 +1,5 @@
+Chonkie is a lightweight ingestion library for RAG pipelines. It turns long documents into small, meaningful chunks before they are embedded and stored.
+
+Chunking is the first step of every RAG pipeline. A good chunk should be self-contained, reconstructable, and large enough to be meaningful. Bad chunks lead to bad retrieval, which leads to bad answers.
+
+Chonkie ships with several chunkers and refineries. Refineries add extra context to chunks after splitting, so a chunk can stand on its own during retrieval. The library also provides a Pipeline API that wires these components together.

@@ -10,6 +10,7 @@ dist/
 
 # 示例运行产物
 src/try_chonkie/chunks.jsonl
+src/try_chonkie/chroma_db/
 
 # 测试与覆盖率
 .pytest_cache/
