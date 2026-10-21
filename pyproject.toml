@@ -1,0 +1,20 @@
+[project]
+name = "try-chonkie"
+version = "0.1.0"
+description = "Taste chonkie by Ashitaka"
+readme = "README.md"
+authors = [
+    { name = "Ashitaka-Laputa-IV", email = "Ashitaka-Laputa-IV@outlook.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "chonkie[openai]>=1.7.0",
+    "rich>=15.0.0",
+]
+
+[project.scripts]
+try-chonkie = "try_chonkie:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
