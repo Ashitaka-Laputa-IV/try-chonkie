@@ -14,7 +14,7 @@ from pathlib import Path
 from chonkie import ChromaHandshake
 from rich import print
 
-from rag_common import get_embeddings, load_chunks
+from try_chonkie.rag_common import get_embeddings, load_chunks
 
 DB_PATH = Path(__file__).parent / "chroma_db"
 

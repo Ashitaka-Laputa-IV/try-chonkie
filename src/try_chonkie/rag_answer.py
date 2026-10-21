@@ -18,7 +18,7 @@ import os
 
 from rich import print
 
-from rag_common import build_index, search
+from try_chonkie.rag_common import build_index, search
 
 QUESTION = "Chonkie 是什么？它对 RAG 有什么帮助？"
 

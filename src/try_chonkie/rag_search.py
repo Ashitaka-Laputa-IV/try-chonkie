@@ -13,7 +13,7 @@
 
 from rich import print
 
-from rag_common import build_index, search
+from try_chonkie.rag_common import build_index, search
 
 chunks, vectors = build_index()
 print(f"索引就绪：{len(chunks)} 个 chunk，向量矩阵 shape={vectors.shape}\n")

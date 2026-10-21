@@ -12,7 +12,7 @@ Chonkie 的 EmbeddingsRefinery 会给每个 chunk 写入 embedding 字段。
 from chonkie import EmbeddingsRefinery
 from rich import print
 
-from rag_common import get_embeddings, load_chunks
+from try_chonkie.rag_common import get_embeddings, load_chunks
 
 chunks = load_chunks()
 print(f"切出 {len(chunks)} 个 chunk")
